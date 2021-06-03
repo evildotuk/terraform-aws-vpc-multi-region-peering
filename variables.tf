@@ -36,7 +36,7 @@ variable "acceptor_route_table_tags" {
 
 variable "auto_accept" {
   type        = bool
-  default     = true
+  default     = false
   description = "Automatically accept the peering (both VPCs need to be in the same AWS account)"
 }
 
